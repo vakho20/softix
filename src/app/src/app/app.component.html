@@ -1,0 +1,9 @@
+<Home></Home>
+<form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+    <input type="text" placeholder="enter name" ngModel/>
+        <input type="username" placeholder="enter username" ngModel/>
+        <input type="text" placeholder="some@gmail.com"  ngModel/>
+        <input type="text" placeholder="enter website" ngModel/>
+    <button type="submit" >submit</button>
+</form>
+   

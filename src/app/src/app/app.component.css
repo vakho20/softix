@@ -1,0 +1,9 @@
+div{
+    display: grid;
+    justify-content: center;
+}
+.red{
+    color: red;
+    font-size: 30px;
+
+}
